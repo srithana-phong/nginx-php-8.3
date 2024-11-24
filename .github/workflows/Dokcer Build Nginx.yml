@@ -1,4 +1,4 @@
-name: Nginx 8.3
+name: Nginx PHP 8.3
 
 on: push
 
@@ -38,4 +38,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: |
+            ghcr.io/srithana-phong/nginx-php:8.3
