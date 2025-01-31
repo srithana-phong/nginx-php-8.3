@@ -1,4 +1,4 @@
-name: Nginx PHP 8.3
+name: Nginx PHP 8.3.16
 
 on: push
 
